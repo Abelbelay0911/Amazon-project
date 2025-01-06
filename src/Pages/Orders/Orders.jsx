@@ -40,7 +40,7 @@ const Orders = () => {
       console.log("No user found, clearing orders.");
       setOrders([]);
     }
-  }, [user]); // Dependency on user
+  }, [user]); 
 
   return (
     <>
