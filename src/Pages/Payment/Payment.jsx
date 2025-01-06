@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
-import classes from "./payment.module.css";
-import LayOut from "../../Component/LayOut/LayOut";
+import classes from "./Payment.module.css";
 import { dataContext } from "../../Component/DataProvider/DataProvider";
 import { db } from "../../Utility/firebase";
 
